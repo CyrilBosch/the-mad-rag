@@ -1,0 +1,9 @@
+name: mad-rag-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10.15
+  - pip:
+      - transformers
+      - pytorch
+      - nltk
